@@ -1,0 +1,37 @@
+@media only screen and (max-width: 800px){
+    .vdo-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .humburger{
+        display: none;
+
+    }
+    .youtube-logo{
+        margin-left: 10px;
+    }
+    .youtube-icon{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: center ;
+    }
+    .right-side{
+        flex: 0.25;
+    }
+    .middle-side{
+        max-width: 150px;
+        margin: 0 20px;
+    }
+
+    
+    .search-icon-btn{
+        width: 35px;
+    }
+   
+    
+
+
+}
